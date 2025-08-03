@@ -1,0 +1,17 @@
+yaml
+CopyEdit
+version: 0.2
+phases:
+  install:
+    commands:
+      - echo Installing...
+  build:
+    commands:
+      - echo Building...
+  post_build:
+    commands:
+      - echo Deploying...
+artifacts:
+  files:
+    - index.html
+
