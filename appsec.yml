@@ -1,0 +1,12 @@
+yaml
+CopyEdit
+version: 0.0
+files:
+  - source: /
+    destination: /var/www/html
+hooks:
+  AfterInstall:
+    - location: deploy.sh
+      timeout: 300
+      runas: root
+
