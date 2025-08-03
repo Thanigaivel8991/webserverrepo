@@ -1,18 +1,16 @@
-CopyEdit
 version: 0.2
+
 phases:
   install:
     commands:
-      - echo Installing...
+      - echo "Installing packages..."
   build:
     commands:
-      - echo Building...
+      - echo "Building the application..."
   post_build:
     commands:
-      - echo Deploying...
+      - echo "Deployment phase..."
+
 artifacts:
   files:
     - index.html
-
-
-
